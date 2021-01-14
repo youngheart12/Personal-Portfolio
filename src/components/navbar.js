@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
-
+import Toggler from "./toggler"
 import { navLinks } from "../../config"
 
 const StyledNav = styled.nav`
@@ -65,9 +65,10 @@ const Navbar = () => {
           </Link>
         )
       })}
-      <Link className="cta-btn" to={button.url}>
-        {button.name}
+      <Link className="cta-btn" to={button[0].url}>
+        {button[0].name}
       </Link>
+      <Toggler />
     </StyledNav>
   )
 }

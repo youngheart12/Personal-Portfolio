@@ -5,6 +5,10 @@ import Context from "../context"
 const useDarkMode = () => {
   const { state, setState } = useContext(Context)
 
+  const toggleDarkMode = () => {
+    setState({ ...state, darkMode: !state.darkMode })
+  }
+
   useEffect(() => {
     const darkScheme = "(prefers-color-scheme: dark)"
 
@@ -29,7 +33,7 @@ const useDarkMode = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  return state.darkMode
+  return { state, toggleDarkMode }
 }
 
 export default useDarkMode

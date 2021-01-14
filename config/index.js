@@ -86,10 +86,15 @@ module.exports = {
         url: "/#projects",
       },
     ],
-    button: {
-      name: "Contact",
-      url: "/#contact",
-    },
+    button: [
+      {
+        name: "Contact",
+        url: "/#contact",
+      },
+      {
+        name: "Toggle",
+      },
+    ],
   },
   footerLinks: [
     {

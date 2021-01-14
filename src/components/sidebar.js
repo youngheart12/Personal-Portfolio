@@ -90,10 +90,10 @@ const Sidebar = ({ open, setOpen }) => {
           ))}
           <Link
             className="cta-btn"
-            to={button.url}
+            to={button[0].url}
             onClick={() => setOpen(!open)}
           >
-            {button.name}
+            {button[0].name}
           </Link>
         </StyledNav>
       </StyledContainer>
