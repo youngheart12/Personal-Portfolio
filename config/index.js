@@ -1,14 +1,14 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Konstantin Münster Portfolio",
-  siteShortTitle: "km.", // Used as logo text in header, footer, and splash screen
+  author: "@ydhash12",
+  siteTitle: "Dilip Kumar Portfolio",
+  siteShortTitle: "dk.", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "Hi there! I'm Konstantin Münster, a product manager and freelance web developer based in Hamburg.",
+    "Hi there! I'm Dilip Kumar, a frontend engineer and freelance web developer based in Bangalore.",
   siteUrl: "https://konstantin.digital",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Konstantin Münster", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Dilip Kumar", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
   colors: {
@@ -45,7 +45,7 @@ module.exports = {
   // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
   // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
   mediumRssFeed:
-    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
+    " https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40manishkumar199222",
   shownArticles: 3,
 
   //-- SOCIAL MEDIA SETTINGS -----
@@ -53,20 +53,16 @@ module.exports = {
   // Medium, GitHub, LinkedIn, XING, Behance
   socialMedia: [
     {
-      name: "Xing",
-      url: "https://www.xing.com/profile/Konstantin_Muenster",
-    },
-    {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      url: "www.linkedin.com/in/dilip-kumar12/",
     },
     {
       name: "Medium",
-      url: "https://medium.com/@konstantin.muenster",
+      url: "https://medium.com/@manishkumar199222",
     },
     {
       name: "Github",
-      url: "https://github.com/konstantinmuenster",
+      url: "https://github.com/youngheart12",
     },
     // {
     //     name: "Behance",
