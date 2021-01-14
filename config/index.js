@@ -98,7 +98,7 @@ module.exports = {
     },
     {
       name: "Imprint",
-      url: "/",
+      url: "/imprint",
     },
   ],
 }

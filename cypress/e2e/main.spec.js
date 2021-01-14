@@ -25,7 +25,7 @@ describe("IndexPage", () => {
     cy.findByTestId("footer-links")
       .findByText(/imprint/i)
       .should("have.attr", "href")
-
+      .and("include", "imprint")
     cy.findByTestId("footer-links")
       .findByText(/privacy/i)
       .should("have.attr", "href")
