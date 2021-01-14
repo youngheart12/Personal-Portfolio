@@ -7,7 +7,7 @@ module.exports = {
     "Hi there! I'm Dilip Kumar, a frontend engineer and freelance web developer based in Bangalore.",
   siteUrl: "https://konstantin.digital",
   siteLanguage: "en_US",
-  siteIcon: "content/favicon.png", // Relative to gatsby-config file
+  siteIcon: "content/dk.png", // Relative to gatsby-config file
   seoTitleSuffix: "Dilip Kumar", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
@@ -98,7 +98,7 @@ module.exports = {
     },
     {
       name: "Imprint",
-      url: "/imprint",
+      url: "/",
     },
   ],
 }
