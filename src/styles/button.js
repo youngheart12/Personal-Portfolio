@@ -28,6 +28,9 @@ const StyledButton = styled.button`
     margin-right: 0.3rem;
     margin-bottom: -0.175rem;
   }
+  &:disabled {
+    background: red;
+  }
 `
 
 const Button = ({ onClick, textAlign, center, children }) => (
