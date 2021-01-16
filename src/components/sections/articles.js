@@ -139,7 +139,7 @@ const Articles = () => {
     }
     loadArticles()
   }, [isIntroDone, articlesControls, MAX_ARTICLES])
-  console.log(articles)
+
   return (
     <StyledSection
       id="articles"

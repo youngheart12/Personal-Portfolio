@@ -9,6 +9,7 @@ import { useOnScreen } from "../../hooks"
 import ContentWrapper from "../../styles/contentWrapper"
 import Underlining from "../../styles/underlining"
 import Social from "../social"
+import ContactForm from "./contactForm.js"
 
 const StyledSection = styled(motion.section)`
   width: 100%;
@@ -93,6 +94,9 @@ const Contact = ({ content }) => {
             </a>
           </div>
         </div>
+        <ContactForm />
+        <br></br>
+
         <Social width="9rem" padding="0.5rem 1.25rem" withIcon />
       </StyledContentWrapper>
     </StyledSection>

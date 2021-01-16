@@ -4,7 +4,7 @@ import useDark from "../hooks/useDarkMode"
 
 const Toggler = () => {
   const { state, toggleDarkMode } = useDark()
-  console.log(state, toggleDarkMode)
+
   return (
     <div>
       <CheckBoxWrapper>
