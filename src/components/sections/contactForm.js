@@ -13,11 +13,14 @@ const Input = styled.input.attrs(props => ({
   type: "text",
   size: props.size || "1em",
 }))`
-  border: 1px solid black;
   border-radius: ${({ theme }) => theme.borderRadius};
   background: ${({ theme }) => theme.colors.background};
   color: ${({ theme }) =>
     theme.colors.background === "#121212" ? "white" : "#121212"};
+  border: ${({ theme }) =>
+    theme.colors.background === "#121212"
+      ? "1px solid gray"
+      : "1px solid black"};
   font-size: 0.875rem;
   padding: 1rem;
   width: 100%;
@@ -30,7 +33,12 @@ const Input = styled.input.attrs(props => ({
 const TextArea = styled.textarea`
   width: 100%;
   border-radius: ${({ theme }) => theme.borderRadius};
-  border: 1px solid black;
+  border: ${({ theme }) =>
+    theme.colors.background === "#121212"
+      ? "1px solid gray"
+      : "1px solid black"};
+  color: ${({ theme }) =>
+    theme.colors.background === "#121212" ? "white" : "#121212"};
   padding: 1rem;
   font-size: 0.875rem;
   background: ${({ theme }) => theme.colors.background};
@@ -132,14 +140,14 @@ export default function contactForm() {
           <Input
             name="email"
             onChange={handleChange}
-            placeholder="example@gmail.com"
+            placeholder="Email address"
           />
         </ChildDiv>
       </ParnetContainer>
       <TextArea
         name="message"
         onChange={handleChange}
-        placeholder="your message"
+        placeholder="Your message"
       />
 
       <Button type="submit" textAlign="center">

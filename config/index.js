@@ -98,12 +98,12 @@ module.exports = {
   },
   footerLinks: [
     {
-      name: "Privacy",
-      url: "/privacy",
+      name: "Facebook",
+      url: "https://www.facebook.com/dilip.kumar.796774/",
     },
     {
-      name: "Imprint",
-      url: "/imprint",
+      name: "Instagram",
+      url: "https://www.instagram.com/youngheart_dilip/",
     },
   ],
 }

@@ -23,18 +23,17 @@ describe("IndexPage", () => {
 
   it("references legal pages", () => {
     cy.findByTestId("footer-links")
-      .findByText(/imprint/i)
+      .findByText(/facebook/i)
       .should("have.attr", "href")
-      .and("include", "imprint")
+
     cy.findByTestId("footer-links")
-      .findByText(/privacy/i)
+      .findByText(/instagram/i)
       .should("have.attr", "href")
-      .and("include", "privacy")
   })
 
   it("renders other pages", () => {
     cy.findByTestId("footer-links")
-      .findByText(/imprint/i)
+      .findByText(/instagram/i)
       .click()
     cy.findByTestId("heading").should("exist")
   })
