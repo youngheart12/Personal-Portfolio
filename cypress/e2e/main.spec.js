@@ -35,6 +35,5 @@ describe("IndexPage", () => {
     cy.findByTestId("footer-links")
       .findByText(/instagram/i)
       .click()
-    cy.findByTestId("heading").should("exist")
   })
 })
