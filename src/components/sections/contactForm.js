@@ -133,6 +133,7 @@ export default function contactForm() {
             name="name"
             onChange={handleChange}
             placeholder="First name"
+            style={{ fontFamily: "Circular-Loom" }}
             required
           />
         </ChildDiv>
@@ -140,6 +141,7 @@ export default function contactForm() {
           <Input
             name="email"
             onChange={handleChange}
+            style={{ fontFamily: "Circular-Loom" }}
             placeholder="Email address"
           />
         </ChildDiv>
@@ -147,6 +149,7 @@ export default function contactForm() {
       <TextArea
         name="message"
         onChange={handleChange}
+        style={{ fontFamily: "Circular-Loom" }}
         placeholder="Your message"
       />
 

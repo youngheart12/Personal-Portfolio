@@ -54,7 +54,7 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "www.linkedin.com/in/dilip-kumar12/",
+      url: "https://www.linkedin.com/in/dilip-kumar12/",
     },
     {
       name: "Medium",
@@ -98,12 +98,12 @@ module.exports = {
   },
   footerLinks: [
     {
-      name: "Facebook",
-      url: "https://www.facebook.com/dilip.kumar.796774/",
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/dilip-kumar12/",
     },
     {
-      name: "Instagram",
-      url: "https://www.instagram.com/youngheart_dilip/",
+      name: "Twitter",
+      url: "https://www.twitter.com/@dilip_mahto09",
     },
   ],
 }
