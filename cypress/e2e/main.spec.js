@@ -20,20 +20,4 @@ describe("IndexPage", () => {
     cy.wait(2000) // wait for animation
     cy.findByTestId("animated-heading").should("have.css", "opacity", "1")
   })
-
-  it("references legal pages", () => {
-    cy.findByTestId("footer-links")
-      .findByText(/facebook/i)
-      .should("have.attr", "href")
-
-    cy.findByTestId("footer-links")
-      .findByText(/instagram/i)
-      .should("have.attr", "href")
-  })
-
-  it("renders other pages", () => {
-    cy.findByTestId("footer-links")
-      .findByText(/instagram/i)
-      .click()
-  })
 })
